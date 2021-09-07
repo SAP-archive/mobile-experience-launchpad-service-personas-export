@@ -20,7 +20,7 @@ Note that this content was created manually in Site Manager (and not using conte
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
 ## Contributing
-Contributions on whether the apps included in the mobile personas or if other mobile personas are relevant are welcome. Please open a new discussion with your ideas. https://github.com/SAP-samples/mobile-experience-launchpad-service-personas-export/discussions/new
+Contributions on whether the apps included in the mobile personas are relevant or if other mobile personas should be considered are welcome. Please open a new discussion with your ideas. https://github.com/SAP-samples/mobile-experience-launchpad-service-personas-export/discussions/new
 
 ## License
 Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
