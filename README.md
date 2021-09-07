@@ -1,5 +1,5 @@
 
-# SAP Mobile Experience
+# SAP Mobile Experience - Sample Export of Mobile Personas
 
 ## Description
 Asset related to SAP's new Mobile Experience that we want to share with our partners and customers. To start with, we have included 4 sample export files of site defined in SAP Launchpad service with content (list of mobile apps) that can be used by mobile personas like project manager, finance manager etc. Customers/partners can use this as a reference to define themselves the content they want for their mobile personas. The information is not a commitment, promise or legal obligation to deliver or maintain any material, code or functionality as the export files are just a sample for reference.
