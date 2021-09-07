@@ -1,0 +1,657 @@
+[
+	{
+		"metadata": {
+			"updatedOn": 1628373024000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "HCM - Employee Self Services",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "HCM - Employee Self Services",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"viz": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "60f138a4-1df7-43cd-bfd9-63155237425c",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "de68068a-be12-4a47-bc93-11c841fc7318",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "catalog",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1628373024000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Project Management - Project Display",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Project Management - Project Display",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"viz": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "8a81f5ef-7e09-428d-b0ac-b5ea7418c81f",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "865c449d-96fb-4e6d-81d0-e795e5b532c6",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "catalog",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1628373024000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Project Management - Project Timesheet",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Project Management - Project Timesheet",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"viz": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "87013c98-3fb6-4ae9-9ba2-3fdd1c754cba",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "46ffeca9-bf0c-42b9-ab10-436936750110",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "catalog",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1628520815000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Project Management - Customer Projects",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Project Management - Customer Projects",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"viz": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "1684d0d3-07b2-46fe-aacf-09e991349e76",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "9a854929-146c-45bf-951e-c0bbfac6a18a",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "143f3bec-6ef2-4dbd-92e0-66386d346f0b",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "1ffe4fb3-5625-45ee-900b-a4630a171319",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "catalog",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1628580992000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "General Ledger - Reporting",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "General Ledger - Reporting",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"viz": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "cbd4ff79-0738-4a1f-a0a5-978352caace5",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "0ce84485-c7a3-4a8f-b6f8-36c42c665268",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "15255855-5148-461d-a73b-c49c2d942286",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ab554144-98ed-4e2e-ab74-29996c9030de",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "9132fd3a-3d54-4e1e-9c2d-fa529834cd14",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "a53f3c93-db32-42e7-9209-7804629cb6ca",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "c64469ee-01f6-483f-8f21-ef67584d6b75",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "058dc3c1-1aed-40db-bc56-173d04c84da9",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "1e8ca0fb-382d-46e9-aa16-13785d5bd7ac",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "c18b4712-db4d-4399-a556-59c64f6b0020",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "04092a5b-e70b-4243-af3c-c3b1ab429b59",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ad7cf51b-3855-43b6-85c3-70bc2bb4101b",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "af05b1cd-984b-4d58-ab72-c1fb68a0a618",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "f1f69a9a-d06d-469d-93fc-ec2c7834d645",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "c2988efa-0ded-4857-9ee0-6ef72af896d0",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "2abe9a5b-0fc8-4f69-92a0-68b39b85a2a4",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "279ae061-4cf1-4825-865c-65540bf8de62",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ef115984-e7fe-4505-b753-9b9bb1891599",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ca0af74f-6e00-4a3b-8228-3554932b0369",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "5d1fc6dc-d190-4ae4-8359-102a5c96cb73",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "467ec93b-4106-45d3-b586-20de24b8f829",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "e56e16c8-1781-49cb-b045-020ce24a2d19",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "647a390d-3c3d-41c8-8cf2-0d95e22c91b4",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "c4c24f37-15de-41e7-83c9-7709019aac04",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "a53a49fa-7712-4e68-aaae-dd8484bcc756",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "catalog",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	}
+]

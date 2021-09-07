@@ -1,0 +1,214 @@
+[
+	{
+		"metadata": {
+			"updatedOn": 1629794615000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Warehouse Clerk S4",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"apps": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"apps": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "b5110144-a359-4b77-ac76-0d0b3be377d1",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "b2846e0b-51ef-40dc-9c35-5edc4a201eab",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ec2fde6b-b634-4bfd-9d16-63f7acc85818",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "7a436c28-40cf-4a35-9cce-40d727e3b118",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "c4c24f37-15de-41e7-83c9-7709019aac04",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "a72a1a25-b29d-4539-9ad0-017ac5bb0a94",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "45e8b5c2-b537-4157-9f04-b280fe6400d7",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ce0a4546-87ae-476e-a527-beced8639f36",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "bfd87714-a18b-4e4c-a99d-b27f224083ce",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "3d88d120-2910-4924-9f22-99de8fd0d373",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "9a22977b-3cd6-47f2-aee4-1aa84a9b73d6",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "df17ba46-88b9-4b07-ab91-a16a82985f8b",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "9ceb3c3d-02f7-4ef4-a942-98999a254db0",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ba4b4323-26ad-41f8-baad-b0cef66aadd8",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "4ca8e4aa-9dcc-4813-8c63-f7221bd36d6a",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "Warehouse_Clerk_S4",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "role",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	}
+]

@@ -1,0 +1,746 @@
+[
+	{
+		"metadata": {
+			"updatedOn": 1628850019000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628597632000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Mobile Start Cross Apps",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Mobile Start Cross Apps",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"tiles": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "bfd87714-a18b-4e4c-a99d-b27f224083ce",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "67ee9719-8d7f-4244-a375-5a39f7678c88",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "group",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629802243000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1629282792000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "My Apps",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "My Apps",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"tiles": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "1360f7d2-a2e6-448b-a6ba-4708fd668c6c",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ba471be5-ab2f-41e7-b414-c1c4fe1ad30d",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "15255855-5148-461d-a73b-c49c2d942286",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "36157f25-1e76-4f0e-863c-05a6e6d20ad7",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "group",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629801859000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1629801791000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "My Cash Overview",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "My Cash Overview",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"tiles": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "058dc3c1-1aed-40db-bc56-173d04c84da9",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "c18b4712-db4d-4399-a556-59c64f6b0020",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ad7cf51b-3855-43b6-85c3-70bc2bb4101b",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "04092a5b-e70b-4243-af3c-c3b1ab429b59",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "0277907e-2710-45b5-8b98-194f0d10e7c2",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "group",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629706332000,
+			"updatedBy": "XXXX",
+			"createdBy": "rana.ganesh.singh01@sap.com",
+			"createdOn": 1628595436000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Native",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Mobile Start Native Apps",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"tiles": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "c4c24f37-15de-41e7-83c9-7709019aac04",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "a72a1a25-b29d-4539-9ad0-017ac5bb0a94",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "1413b162-d70c-4fb2-8fe0-5eb5c6bc9b10",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "928068e9-64be-4f75-b7fd-10d67277dd83",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ce0a4546-87ae-476e-a527-beced8639f36",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "45e8b5c2-b537-4157-9f04-b280fe6400d7",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "3d88d120-2910-4924-9f22-99de8fd0d373",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "dffd1857-4a1b-484a-b932-f49e01ccf71b",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "group",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629801697000,
+			"updatedBy": "XXXX",
+			"createdBy": "rahul.rajeev.ratnam@sap.com",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "My Reporting Overview",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "My Reporting Overview",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"tiles": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "cbd4ff79-0738-4a1f-a0a5-978352caace5",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "9132fd3a-3d54-4e1e-9c2d-fa529834cd14",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "0ce84485-c7a3-4a8f-b6f8-36c42c665268",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "a53f3c93-db32-42e7-9209-7804629cb6ca",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "af05b1cd-984b-4d58-ab72-c1fb68a0a618",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "c2988efa-0ded-4857-9ee0-6ef72af896d0",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ef115984-e7fe-4505-b753-9b9bb1891599",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "279ae061-4cf1-4825-865c-65540bf8de62",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "81d13d23-0e6f-4e7e-873f-3bbffdc396b8",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "group",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629802102000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1629801900000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "My Payables & Receivables Overview",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "My Payables & Receivables Overview",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"tiles": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "c64469ee-01f6-483f-8f21-ef67584d6b75",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "647a390d-3c3d-41c8-8cf2-0d95e22c91b4",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "1e8ca0fb-382d-46e9-aa16-13785d5bd7ac",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ab554144-98ed-4e2e-ab74-29996c9030de",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ca0af74f-6e00-4a3b-8228-3554932b0369",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "f1f69a9a-d06d-469d-93fc-ec2c7834d645",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "5d1fc6dc-d190-4ae4-8359-102a5c96cb73",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "e56e16c8-1781-49cb-b045-020ce24a2d19",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "2abe9a5b-0fc8-4f69-92a0-68b39b85a2a4",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "467ec93b-4106-45d3-b586-20de24b8f829",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "f7ed725c-3da8-494c-819e-8c1fd78a8a90",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "group",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	}
+]

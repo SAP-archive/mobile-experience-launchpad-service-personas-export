@@ -1,0 +1,203 @@
+[
+	{
+		"metadata": {
+			"updatedOn": 1629285817000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Store Manager Retail",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"apps": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"apps": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "c3b62741-67b7-42d9-a85b-68e78b73d89c",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "d4ff14fb-6daf-41eb-9246-f6c6226d8848",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "4fd9b9d5-7fb1-4c1c-91f7-0ec6e95dbbdd",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "1b6b6614-b75f-4abc-b4eb-512e3bd77f1d",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "c4de9246-3626-4f5c-86f3-caf53c302ffe",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "e85fb578-3595-45d5-a041-41087292be52",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "c9257c55-cac0-456f-acd5-ec3236ba4725",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "7b5f2fb6-f303-43f9-9cac-613267431d5a",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "c4c24f37-15de-41e7-83c9-7709019aac04",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "45e8b5c2-b537-4157-9f04-b280fe6400d7",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "a72a1a25-b29d-4539-9ad0-017ac5bb0a94",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ce0a4546-87ae-476e-a527-beced8639f36",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "bfd87714-a18b-4e4c-a99d-b27f224083ce",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "3d88d120-2910-4924-9f22-99de8fd0d373",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp"
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "Store_Manager_Retail",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "role",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	}
+]

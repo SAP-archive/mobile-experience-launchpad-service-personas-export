@@ -1,0 +1,1536 @@
+[
+	{
+		"metadata": {
+			"updatedOn": 1629282290000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Create Customer Project",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Plan Customer Projects",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "S/4HC",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "sap-icon://create-entry-time"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"destination": "ezerot",
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "createCustomerProject",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "ignored"
+									},
+									"deviceTypes": {
+										"phone": false,
+										"tablet": true,
+										"desktop": true
+									},
+									"semanticObject": "CustomerProject"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.fiori",
+						"urlTemplateParams": {
+							"appId": "cus.cpm.projengagement.maint"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "143f3bec-6ef2-4dbd-92e0-66386d346f0b",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629707223000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Maintain Customer Project",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Plan Customer Projects",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "S/4HC",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "Manage your customer project",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "sap-icon://cancel-maintenance"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"destination": "ezerot",
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "maintainCustomerProject",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "ignored"
+									},
+									"deviceTypes": {
+										"phone": false,
+										"tablet": true,
+										"desktop": true
+									},
+									"semanticObject": "CustomerProject"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.fiori",
+						"urlTemplateParams": {
+							"appId": "cus.cpm.projengagement.maint"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "9a854929-146c-45bf-951e-c0bbfac6a18a",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629706907000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Notify Missing Times",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Notify Missing Times",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "S/4HC",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "Check the status of time recording",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "sap-icon://notification-2"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"destination": "ezerot",
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "executeMissingTime",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "ignored"
+									},
+									"deviceTypes": {
+										"phone": true,
+										"tablet": true,
+										"desktop": true
+									},
+									"semanticObject": "TimeEntry"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.fiori",
+						"urlTemplateParams": {
+							"appId": "hcm.emp.notifymissingtimes1"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "87013c98-3fb6-4ae9-9ba2-3fdd1c754cba",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1628595436000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628595436000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Customer Guide",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Native App",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "Finance",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/8d/bc/b3/8dbcb3fa-ab9c-826c-087a-b766c69a9fb3/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/230x0w.png"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "guide",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "allowed"
+									},
+									"deviceTypes": {
+										"phone": true,
+										"tablet": true,
+										"desktop": true
+									},
+									"semanticObject": "cut"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.nativeIOS",
+						"urlTemplateParams": {
+							"startUrl": "sapcustguide://",
+							"installUrl": "https://apps.apple.com/us/app/id1510321715"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "1413b162-d70c-4fb2-8fe0-5eb5c6bc9b10",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1628595436000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628595436000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Project Companion",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Native App",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "Professional Services",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/9b/d6/2b9bd6d8-4a55-9b5a-6915-3e468167a69d/AppIcon-0-1x_U007emarketing-0-5-0-85-220.png/230x0w.png"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "com",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "allowed"
+									},
+									"deviceTypes": {
+										"phone": true,
+										"tablet": true,
+										"desktop": false
+									},
+									"semanticObject": "proj"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.nativeIOS",
+						"urlTemplateParams": {
+							"startUrl": "sapprojcomp://",
+							"installUrl": "https://apps.apple.com/us/app/sap-project-companion/id1512199036"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "928068e9-64be-4f75-b7fd-10d67277dd83",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1628595436000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628595436000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Analytical Cloud",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Native App",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "Analytics",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/86/e9/d6/86e9d6af-bf65-943e-3d5f-8f062d9283d8/AppIcon-1x_U007emarketing-0-7-0-85-220.png/460x0w.png"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "cloud",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "allowed"
+									},
+									"deviceTypes": {
+										"phone": true,
+										"tablet": true,
+										"desktop": true
+									},
+									"semanticObject": "analytics"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.nativeIOS",
+						"urlTemplateParams": {
+							"startUrl": "sap-analytics-cloud://",
+							"installUrl": "https://apps.apple.com/us/app/sap-analytics-cloud/id981727250"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "ce0a4546-87ae-476e-a527-beced8639f36",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629705819000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Employee Fact Sheet",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Employee Fact Sheet",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "S/4HC",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "Employee Overview",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "sap-icon://kpi-managing-my-area"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"destination": "ezerot",
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "displayFactSheet",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "ignored"
+									},
+									"deviceTypes": {
+										"phone": false,
+										"tablet": false,
+										"desktop": true
+									},
+									"semanticObject": "Employee"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.fiori",
+						"urlTemplateParams": {
+							"appId": "hcm.emp.ops1"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "60f138a4-1df7-43cd-bfd9-63155237425c",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629707001000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Customer Project Factsheet",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Customer Project Factsheet",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "S/4HC",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "Display information about several aspects of your project",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "sap-icon://capital-projects"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"destination": "ezerot",
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "displayFactSheet",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "allowed"
+									},
+									"deviceTypes": {
+										"phone": true,
+										"tablet": true,
+										"desktop": true
+									},
+									"semanticObject": "CustomerProject"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.fiori",
+						"urlTemplateParams": {
+							"appId": "cus.cpm.customerproj.factsheets1"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "1684d0d3-07b2-46fe-aacf-09e991349e76",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629707353000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Internal Project Factsheet",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Internal Project Factsheet",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "S/4HC",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "Display information about several aspects of your project",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "sap-icon://customer-financial-fact-sheet"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"destination": "ezerot",
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "displayFactSheet",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "ignored"
+									},
+									"deviceTypes": {
+										"phone": false,
+										"tablet": false,
+										"desktop": true
+									},
+									"semanticObject": "InternalProject"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.fiori",
+						"urlTemplateParams": {
+							"appId": "cus.cpm.internalproj.factsheets1"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "8a81f5ef-7e09-428d-b0ac-b5ea7418c81f",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1628850739000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628843745000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Learning by SuccessFactors",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Learning by SuccessFactors",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/43/ad/62/43ad623e-5c4d-0ce4-68e6-f1da173ef0e0/AppIconValidatedPreview-1x_U007emarketing-0-6-0-85-220.png/146x0w.png"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {
+										"mobilestart.startUrl": {
+											"value": {
+												"value": "bizx://?urlType=deeplink&deeplinkType=learning",
+												"format": "plain"
+											}
+										},
+										"mobilestart.installUrl": {
+											"value": {
+												"value": "https://apps.apple.com/us/app/learning-by-successfactors/id1030964007",
+												"format": "plain"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "start",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "allowed"
+									},
+									"deviceTypes": {
+										"phone": true,
+										"tablet": true,
+										"desktop": true
+									},
+									"semanticObject": "successfactorslearning"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.nativeIOS",
+						"urlTemplateParams": {
+							"startUrl": "bizx://?urlType=deeplink&deeplinkType=learning",
+							"installUrl": "https://apps.apple.com/us/app/learning-by-successfactors/id1030964007"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "3d88d120-2910-4924-9f22-99de8fd0d373",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1611151305000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1611151305000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "SuccessFactors - Org Chart",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "PROD.ios.SuccessFactors - Org Chart",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": ""
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {
+										"mobilestart.startUrl ": {
+											"value": {
+												"value": "bizx://?urlType=deeplink&deeplinkType=orgChart",
+												"format": "plain"
+											}
+										},
+										"mobilestart.installUrl": {
+											"value": {
+												"value": "https://apps.apple.com/de/app/successfactors/id426562526",
+												"format": "plain"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "start",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "allowed"
+									},
+									"deviceTypes": {
+										"phone": true,
+										"tablet": true,
+										"desktop": false
+									},
+									"semanticObject": "successfactorsorgchart"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.url",
+						"urlTemplateParams": {
+							"url": "http://sap.com",
+							"query": {},
+							"enableSapParams": true
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "45e8b5c2-b537-4157-9f04-b280fe6400d7",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1628595436000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628595436000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "SuccessFactors ",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "DEMO - SAPIT",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "SuccessFactors",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "Learning",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/84/79/72/847972bb-aa3f-c190-36bb-4a37f9c50449/AppIcon-1x_U007emarketing-0-6-0-85-220.png/230x0w.png"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {
+										"mobilestart.startUrl": {
+											"value": {
+												"value": "bizx://?urlType=deeplink&deeplinkType=profile",
+												"format": "plain"
+											}
+										},
+										"mobilestart.localIcon": {
+											"value": {
+												"value": "successFactors",
+												"format": "plain"
+											}
+										},
+										"mobilestart.installUrl ": {
+											"value": {
+												"value": "https://apps.apple.com/de/app/successfactors/id426562526",
+												"format": "plain"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "start",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "allowed"
+									},
+									"deviceTypes": {
+										"phone": true,
+										"tablet": true,
+										"desktop": true
+									},
+									"semanticObject": "successfactors"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "inplace",
+						"urlTemplateId": "urltemplate.nativeIOS",
+						"urlTemplateParams": {
+							"startUrl": "bizx://?urlType=deeplink&deeplinkType=profile",
+							"installUrl": "https://apps.apple.com/de/app/successfactors/id426562526"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "a72a1a25-b29d-4539-9ad0-017ac5bb0a94",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1628595436000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628595436000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Concur",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "Native App",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Concur",
+						"en": ""
+					}
+				},
+				"cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle": {
+					"type": "XTIT",
+					"value": {
+						"": "Travel & Expenses",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"defaultViz": "Default-VizId",
+				"visualizations": {
+					"Default-VizId": {
+						"vizType": "sap.ushell.StaticAppLauncher",
+						"vizConfig": {
+							"sap.ui": {
+								"icons": {
+									"icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/86/4a/4b/864a4b95-4978-5f7c-300a-4f597336ec0c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/230x0w.png"
+								}
+							},
+							"sap.app": {
+								"info": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|info}}",
+								"subTitle": "{{cdm|payload|visualizations|Default-VizId|vizConfig|sap.app|subTitle}}"
+							},
+							"sap.flp": {
+								"target": {
+									"type": "IBN",
+									"inboundId": "__GenericDefaultSemantic-__GenericDefaultAction",
+									"parameters": {
+										"mobilestart.startUrl": {
+											"value": {
+												"value": "concurmobile://",
+												"format": "plain"
+											}
+										},
+										"mobilestart.localIcon": {
+											"value": {
+												"value": "concur",
+												"format": "plain"
+											}
+										},
+										"mobilestart.installUrl": {
+											"value": {
+												"value": "https://apps.apple.com/de/app/sap-concur/id335023774",
+												"format": "plain"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"targetAppConfig": {
+					"sap.app": {
+						"tags": {
+							"keywords": []
+						},
+						"crossNavigation": {
+							"inbounds": {
+								"__GenericDefaultSemantic-__GenericDefaultAction": {
+									"action": "start",
+									"signature": {
+										"parameters": {},
+										"additionalParameters": "allowed"
+									},
+									"deviceTypes": {
+										"phone": true,
+										"tablet": true,
+										"desktop": false
+									},
+									"semanticObject": "sapconcur"
+								}
+							}
+						}
+					},
+					"_version": "1.13.0",
+					"sap.integration": {
+						"navMode": "explace",
+						"urlTemplateId": "urltemplate.nativeIOS",
+						"urlTemplateParams": {
+							"startUrl": "concurmobile://",
+							"installUrl": "https://apps.apple.com/de/app/sap-concur/id335023774"
+						}
+					}
+				}
+			},
+			"_version": "3.0",
+			"identification": {
+				"id": "c4c24f37-15de-41e7-83c9-7709019aac04",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "businessapp",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	}
+]

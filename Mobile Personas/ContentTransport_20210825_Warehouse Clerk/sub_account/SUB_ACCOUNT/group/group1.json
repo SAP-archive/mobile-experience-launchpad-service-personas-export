@@ -1,0 +1,428 @@
+[
+	{
+		"metadata": {
+			"updatedOn": 1628850019000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628597632000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Mobile Start Cross Apps",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Mobile Start Cross Apps",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"tiles": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "bfd87714-a18b-4e4c-a99d-b27f224083ce",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "67ee9719-8d7f-4244-a375-5a39f7678c88",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "group",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629794341000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1629794284000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "My Inventory Management",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "My Inventory Management",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"tiles": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "7a436c28-40cf-4a35-9cce-40d727e3b118",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "9a22977b-3cd6-47f2-aee4-1aa84a9b73d6",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "4ca8e4aa-9dcc-4813-8c63-f7221bd36d6a",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "df17ba46-88b9-4b07-ab91-a16a82985f8b",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "ec033385-7dfe-403d-8c35-cd9948356e09",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "group",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629794233000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628373024000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "My Warehouse Management",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "My Warehouse Management",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"tiles": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "b5110144-a359-4b77-ac76-0d0b3be377d1",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "b2846e0b-51ef-40dc-9c35-5edc4a201eab",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ec2fde6b-b634-4bfd-9d16-63f7acc85818",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "9ceb3c3d-02f7-4ef4-a942-98999a254db0",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ba4b4323-26ad-41f8-baad-b0cef66aadd8",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "89fd4c73-ba2d-4361-a15c-2150b16269fe",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "group",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	},
+	{
+		"metadata": {
+			"updatedOn": 1629706332000,
+			"updatedBy": "XXXX",
+			"createdBy": "XXXX",
+			"createdOn": 1628595436000,
+			"context": {
+				"id": "SUB_ACCOUNT",
+				"contextType": "sub_account",
+				"tenantId": "XXXX",
+				"identityZoneId": "XXXX",
+				"instanceId": "XXXX"
+			}
+		},
+		"cdm": {
+			"texts": {
+				"cdm|identification|title": {
+					"type": "XTIT",
+					"value": {
+						"": "Native",
+						"en": ""
+					}
+				},
+				"cdm|identification|description": {
+					"type": "XTIT",
+					"value": {
+						"": "SAP Mobile Start Native Apps",
+						"en": ""
+					}
+				}
+			},
+			"payload": {
+				"tiles": []
+			},
+			"_version": "3.0",
+			"relations": {
+				"viz": [
+					{
+						"label": "ref",
+						"target": {
+							"id": "c4c24f37-15de-41e7-83c9-7709019aac04",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "a72a1a25-b29d-4539-9ad0-017ac5bb0a94",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "1413b162-d70c-4fb2-8fe0-5eb5c6bc9b10",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "928068e9-64be-4f75-b7fd-10d67277dd83",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "ce0a4546-87ae-476e-a527-beced8639f36",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "45e8b5c2-b537-4157-9f04-b280fe6400d7",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					},
+					{
+						"label": "ref",
+						"target": {
+							"id": "3d88d120-2910-4924-9f22-99de8fd0d373",
+							"context": {
+								"id": "SUB_ACCOUNT",
+								"type": "SUB_ACCOUNT"
+							},
+							"entityType": "businessapp",
+							"properties": {
+								"vizId": "Default-VizId"
+							}
+						}
+					}
+				]
+			},
+			"identification": {
+				"id": "dffd1857-4a1b-484a-b932-f49e01ccf71b",
+				"title": "{{cdm|identification|title}}",
+				"entityType": "group",
+				"description": "{{cdm|identification|description}}"
+			}
+		}
+	}
+]
