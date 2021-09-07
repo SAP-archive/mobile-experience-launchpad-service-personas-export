@@ -1,7 +1,7 @@
 # [Title]
 
 ## Description
-Asset related to SAP's new Mobile Experience that we want to share with partners, customers. To start we with are planning to distribute 4 export files of site defined in SAP Launchpad service with content (list of mobile apps) that will be used by mobile personas like project manager, finance manager etc. Customers/partners can use this as a reference to define themselves the content they want for their mobile personas. This content can be accessed using SAP Mobile Start app that went RTC on 31st Aug.
+Asset related to SAP's new Mobile Experience that we want to share with partners and customers. To start we have included 4 sample export files of site defined in SAP Launchpad service with content (list of mobile apps) that can be used by mobile personas like project manager, finance manager etc. Customers/partners can use this as a reference to define themselves the content they want for their mobile personas. This content can be accessed using SAP Mobile Start app that went RTC on 31st Aug. The information is not a commitment, promise or legal obligation to deliver and maintain any material, code or functionality as the export files are just a sample for reference.
 ## Requirements
 
 ## Download and Installation
