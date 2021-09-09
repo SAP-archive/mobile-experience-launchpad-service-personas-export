@@ -8,7 +8,7 @@ SAP Launchpad service is a pre-requisite.
 ## Download and Installation
 To use SAP Mobile Start you need to meet all the technical and content related pre-requisites. For the latest on how to perform these steps please see the SAP Mobile Start community page (https://community.sap.com/topics/mobile-applications).
 
-"Mobile Personas" folder has 1 sub folder per mobile persona. Download each sub folder as a zip file which can then be imported using Site Manager. Within the "content manager" tab select "Import Content Items" button and upload the provided file.
+"Mobile Personas" folder has 1 zip per mobile persona. Each zip file can be imported using Site Manager; within the "content manager" tab select "Import Content Items" button and upload the provided file.
 
 ## Known Issues
 Note that this content was created manually in Site Manager (and not using content federation) so that it is easy to distibute the content. If you want to use the sample content by connecting to your own SAP S/4HANA backend system, you will need to change the system property within ALL the applications defined in this content. 
