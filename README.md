@@ -1,4 +1,4 @@
-
+ 
 # SAP Mobile Experience - Sample Export of Mobile Personas
 
 ## Description
