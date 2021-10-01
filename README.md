@@ -1,3 +1,4 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/mobile-experience-launchpad-service-personas-export)](https://api.reuse.software/info/github.com/SAP-samples/fiori-elements-incident-management)
 
 # SAP Mobile Experience - Sample Export of Mobile Personas
 
